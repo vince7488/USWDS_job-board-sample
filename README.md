@@ -1,4 +1,16 @@
-# USWDS Sample Job
+# Project Repository
+
+## Overview
+
+This repository contains the source code for **_Job Board: USWDS Demo_**, a full-stack application leveraging the Supabase platform for
+backend services and a React/TypeScript interface for the frontend.
+
+## Tech Stack
+
+- **Frontend**: React, TypeScript, Vite
+- **Backend/Database**: Supabase (PostgreSQL)
+- **Tooling**: Node.js, Supabase CLI, NPM
+- **Version**: 0.1.0
 
 This repository is split into two folders:
 
@@ -18,6 +30,14 @@ This repository is split into two folders:
 |-- package.json
 `-- README.md
 ```
+
+## Prerequisites
+
+Before building the project, ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Supabase CLI](https://supabase.com/docs/guides/cli)
+- Docker (Required to run Supabase locally)
 
 ## Getting started
 
