@@ -35,7 +35,7 @@ This repository is split into two folders:
 
 Before building the project, ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Node.js](https://nodejs.org/) (`^20.19.0` or `>=22.12.0`)
 - [Supabase CLI](https://supabase.com/docs/guides/cli)
 - Docker (Required to run Supabase locally)
 
