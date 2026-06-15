@@ -1,11 +1,6 @@
 :root {
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #14213d;
-  background:
-    radial-gradient(circle at top left, rgba(255, 191, 105, 0.35), transparent 28%),
-    linear-gradient(180deg, #f8f1e5 0%, #eef3f9 100%);
+  color: #1b1b1b;
+  background: #f0f0f0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,10 +11,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   min-width: 320px;
@@ -28,11 +19,7 @@ body {
 
 button,
 input,
-textarea,
-select {
+select,
+textarea {
   font: inherit;
-}
-
-a {
-  color: inherit;
 }
