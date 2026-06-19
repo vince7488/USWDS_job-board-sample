@@ -12,7 +12,7 @@
   border-radius: 0.5rem;
   background:
     linear-gradient(rgba(0, 30, 51, 0.72), rgba(0, 30, 51, 0.72)),
-    url('@uswds/uswds/dist/img/hero.jpg') center / cover;
+    url('@uswds/uswds/img/hero.jpg') center / cover;
 }
 
 .site-single-card {
