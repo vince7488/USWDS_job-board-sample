@@ -1,4 +1,15 @@
 node_modules/
+package-lock.json
+npm-shrinkwrap.json
+
+# Yarn generated state
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
 frontend/dist/
 frontend/.env.local
 backend/.env

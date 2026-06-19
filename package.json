@@ -7,13 +7,18 @@
     "backend"
   ],
   "scripts": {
-    "dev": "npm --workspace frontend run dev",
-    "build": "npm --workspace frontend run build",
-    "preview": "npm --workspace frontend run preview",
-    "supabase:init": "npm --workspace backend run supabase:init",
-    "supabase:start": "npm --workspace backend run supabase:start",
-    "supabase:stop": "npm --workspace backend run supabase:stop",
-    "supabase:status": "npm --workspace backend run supabase:status",
-    "db:reset": "npm --workspace backend run db:reset"
-  }
+    "dev": "yarn workspace frontend dev",
+    "build": "yarn workspace frontend build",
+    "test": "yarn workspace frontend test",
+    "preview": "yarn workspace frontend preview",
+    "supabase:init": "yarn workspace backend supabase:init",
+    "supabase:start": "yarn workspace backend supabase:start",
+    "supabase:stop": "yarn workspace backend supabase:stop",
+    "supabase:status": "yarn workspace backend supabase:status",
+    "db:reset": "yarn workspace backend db:reset"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "packageManager": "yarn@4.17.0"
 }
