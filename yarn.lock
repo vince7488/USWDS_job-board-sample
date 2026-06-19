@@ -219,22 +219,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lit-labs/ssr-dom-shim@npm:^1.5.0":
-  version: 1.6.0
-  resolution: "@lit-labs/ssr-dom-shim@npm:1.6.0"
-  checksum: 10c0/deffcfd765d268820beef600a1c1cf9d3cf1a5cb4bbe7e80843796ff33d1a122f4e5651ef4a44b33d36e5fa6538e6ee87a95b9d40b4a26cabf3c35b45194c87a
-  languageName: node
-  linkType: hard
-
-"@lit/reactive-element@npm:^2.1.0":
-  version: 2.1.2
-  resolution: "@lit/reactive-element@npm:2.1.2"
-  dependencies:
-    "@lit-labs/ssr-dom-shim": "npm:^1.5.0"
-  checksum: 10c0/557069ce6ebbbafb1140e1e0a25ce73d3501bf455cda231d42bb131baa9065c54b6b7ca1655507eede397decd7ddde16c84192cb72a07d4edf41d54e07725933
-  languageName: node
-  linkType: hard
-
 "@napi-rs/wasm-runtime@npm:^1.1.4":
   version: 1.1.5
   resolution: "@napi-rs/wasm-runtime@npm:1.1.5"
@@ -608,27 +592,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/trusted-types@npm:^2.0.2":
-  version: 2.0.7
-  resolution: "@types/trusted-types@npm:2.0.7"
-  checksum: 10c0/4c4855f10de7c6c135e0d32ce462419d8abbbc33713b31d294596c0cc34ae1fa6112a2f9da729c8f7a20707782b0d69da3b1f8df6645b0366d08825ca1522e0c
-  languageName: node
-  linkType: hard
-
-"@uswds/uswds@npm:^3.13.0":
-  version: 3.13.0
-  resolution: "@uswds/uswds@npm:3.13.0"
-  dependencies:
-    lit: "npm:^3.2.1"
-    receptor: "npm:1.0.0"
-    sass-embedded-linux-x64: "npm:^1.89.0"
-  dependenciesMeta:
-    sass-embedded-linux-x64:
-      optional: true
-  checksum: 10c0/00cc542793daebf6194d57570ab1fb009d3a7617ac8ebab8dc4c274831166c64a29abc892c52f5beba296c9926f92315595714fbf3f5c1455b5879988723a381
-  languageName: node
-  linkType: hard
-
 "@vitejs/plugin-react@npm:^6.0.2":
   version: 6.0.2
   resolution: "@vitejs/plugin-react@npm:6.0.2"
@@ -896,13 +859,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"element-closest@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "element-closest@npm:2.0.2"
-  checksum: 10c0/1279012d0b23ef1eb84e8e4bcf54dac0b26f5ad101d0ea2c5ba11bba081ba2092ff4c3728c9d413a6d219cf6f80fcc62a41149f5cf8b4a47572c6ce9501ceaab
-  languageName: node
-  linkType: hard
-
 "entities@npm:^8.0.0":
   version: 8.0.0
   resolution: "entities@npm:8.0.0"
@@ -969,7 +925,6 @@ __metadata:
     "@testing-library/react": "npm:^16.3.2"
     "@types/react": "npm:^19.2.17"
     "@types/react-dom": "npm:^19.2.3"
-    "@uswds/uswds": "npm:^3.13.0"
     "@vitejs/plugin-react": "npm:^6.0.2"
     babel-plugin-react-compiler: "npm:^1.0.0"
     jsdom: "npm:^29.1.1"
@@ -1083,13 +1038,6 @@ __metadata:
     canvas:
       optional: true
   checksum: 10c0/20e2174b09d9d06393cb48e1392b7a1cb7191d6656a6f7b3b8fbf9853b4ab0ef60b4a42c2c55f71b55ca5da50ffa75bcdc6986210963182e7993c6f9cd4f499b
-  languageName: node
-  linkType: hard
-
-"keyboardevent-key-polyfill@npm:^1.0.2":
-  version: 1.1.0
-  resolution: "keyboardevent-key-polyfill@npm:1.1.0"
-  checksum: 10c0/0f3ef56daa469a0f09f3e7f20e77e1ecb988edee7f83953aa3450b991a1d318d6e3b03dee644015b2bb7b5f26dd0656e167c83967a553bc951e883831afc6b19
   languageName: node
   linkType: hard
 
@@ -1213,37 +1161,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-element@npm:^4.2.0":
-  version: 4.2.2
-  resolution: "lit-element@npm:4.2.2"
-  dependencies:
-    "@lit-labs/ssr-dom-shim": "npm:^1.5.0"
-    "@lit/reactive-element": "npm:^2.1.0"
-    lit-html: "npm:^3.3.0"
-  checksum: 10c0/114ab5837f1f9e03a30b1ed1c055fa0e31f01e444464e5ab0453ef88be12d778508235533267c42614d323e3048ee58f865b5c612948a53bd6219abca404c710
-  languageName: node
-  linkType: hard
-
-"lit-html@npm:^3.3.0":
-  version: 3.3.3
-  resolution: "lit-html@npm:3.3.3"
-  dependencies:
-    "@types/trusted-types": "npm:^2.0.2"
-  checksum: 10c0/84e57314412ff385cc67fc482d26b77057370e2cfe3c6495cc45f692bdad840d5ed0519ddddcfae1d043bb098c66daa7e807593d5a21ac72094da14274497879
-  languageName: node
-  linkType: hard
-
-"lit@npm:^3.2.1":
-  version: 3.3.3
-  resolution: "lit@npm:3.3.3"
-  dependencies:
-    "@lit/reactive-element": "npm:^2.1.0"
-    lit-element: "npm:^4.2.0"
-    lit-html: "npm:^3.3.0"
-  checksum: 10c0/11b6175ebffce92f4cf835ddd8a198d49707c27f34b0a7c538d2cb294f6c2fb7ff40aabd3589fcf0c2ed162404faaf2bb7c966fad9024bb9e02d013e2d5aa0b5
-  languageName: node
-  linkType: hard
-
 "lru-cache@npm:^11.3.5":
   version: 11.5.1
   resolution: "lru-cache@npm:11.5.1"
@@ -1266,13 +1183,6 @@ __metadata:
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.5.5"
   checksum: 10c0/299378e38f9a270069fc62358522ddfb44e94244baa0d6a8980ab2a9b2490a1d03b236b447eee309e17eb3bddfa482c61259d47960eb018a904f0ded52780c4a
-  languageName: node
-  linkType: hard
-
-"matches-selector@npm:^1.0.0":
-  version: 1.2.0
-  resolution: "matches-selector@npm:1.2.0"
-  checksum: 10c0/a0bb9457e8fe59a38cb17ca1bf66ac0c31db163b9141254906808f99ce2a734f7e888753b34c4f7631069cf63e34d10eff1a0501a541a0cd233323392f4b71b1
   languageName: node
   linkType: hard
 
@@ -1343,13 +1253,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 10c0/980d89257f9587f3e1f77877ddbf905d6aa3b738ec33e49a4fa1a059a0dd82eb28063982b150654a7ae9de386f2ead60e56172db7d37cf56de545f7392a2a26a
-  languageName: node
-  linkType: hard
-
-"object-assign@npm:^4.1.0":
-  version: 4.1.1
-  resolution: "object-assign@npm:4.1.1"
-  checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
   languageName: node
   linkType: hard
 
@@ -1479,18 +1382,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"receptor@npm:1.0.0":
-  version: 1.0.0
-  resolution: "receptor@npm:1.0.0"
-  dependencies:
-    element-closest: "npm:^2.0.1"
-    keyboardevent-key-polyfill: "npm:^1.0.2"
-    matches-selector: "npm:^1.0.0"
-    object-assign: "npm:^4.1.0"
-  checksum: 10c0/4b45921a80237ea9aa6a9c91878f0da6f5f5faccc117668235137f359c8ef0a5844a94b6d5117ebfdc50776a63039a031069098f53ff39af19a62dc64e67905a
-  languageName: node
-  linkType: hard
-
 "redent@npm:^3.0.0":
   version: 3.0.0
   resolution: "redent@npm:3.0.0"
@@ -1563,13 +1454,6 @@ __metadata:
   bin:
     rolldown: ./bin/cli.mjs
   checksum: 10c0/5f9dd47b7abf203b16bc600db68542f245e974c800e59ff50b76157d1dada1403657690435b036fabca88e93d13a67c31abe5cfaa6f61ce33717f61720204cdf
-  languageName: node
-  linkType: hard
-
-"sass-embedded-linux-x64@npm:^1.89.0":
-  version: 1.101.0
-  resolution: "sass-embedded-linux-x64@npm:1.101.0"
-  conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 

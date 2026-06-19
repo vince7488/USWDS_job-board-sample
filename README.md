@@ -7,6 +7,8 @@ backend services and a React/TypeScript interface for the frontend.
 
 `**Job Board: USWDS Demo**` is a full-suite demonstration of my ability to work in advanced USWDS, showcasing comprehensive implementation of USWDS design patterns, accessibility best practices, and responsive component integration.
 
+This job board represents a mock government faction: "Department of Ethics, Accountability, and Responsibility" (DEAR), and this will be their perpetual careers home page.
+
 ## Tech Stack
 
 - **Frontend**: React, TypeScript, Vite
