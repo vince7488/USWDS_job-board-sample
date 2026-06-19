@@ -1,15 +1,37 @@
-.phase-banner {
-  border-left: 0.5rem solid #005ea8;
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.route-list {
+.site-shell main {
+  flex: 1;
+}
+
+.site-hero {
+  border-radius: 0.5rem;
+  background:
+    linear-gradient(rgba(0, 30, 51, 0.72), rgba(0, 30, 51, 0.72)),
+    url('/vendor/uswds/dist/img/hero.jpg') center / cover;
+}
+
+.site-single-card {
+  max-width: 48rem;
+}
+
+.tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  padding: 0;
-  list-style: none;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
-.route-list a {
-  display: inline-block;
+.usa-card__footer .usa-button {
+  width: 100%;
+}
+
+@media (min-width: 40em) {
+  .usa-card__footer .usa-button {
+    width: auto;
+  }
 }
